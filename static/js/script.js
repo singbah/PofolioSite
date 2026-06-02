@@ -1,7 +1,22 @@
-const navData = ["home", "about", "contact"]
 
-function goTo(data) {
-  let url = window.location.host
-  console.log(url + `/${data}`)
+
+const commentData = {
+  username: '',
+  comment: '',
+  email:""
 }
 
+let submitCommit = document.getElementById("submitCommit")
+
+function handelForm() {
+  event.preventDefault();
+  const { name, value } = event.target;
+  commentData[name] += value;
+  if (name === 'email') {
+    submitCommit.href = `mailto:singbahjohn@gmail.com`
+    console.log(submitCommit)
+  } else if (name === 'comment') {
+    submitCommit.href = `mailto:singbahjohn@gmail.com?subject=comment&body=${value}`
+    console.log(submitCommit)
+  }
+}

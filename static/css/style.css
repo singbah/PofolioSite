@@ -112,9 +112,9 @@ body a{
   margin: 10px;
   margin-top: 20px;
   padding: 10px;
-
+  border: 1px solid grey;
   border-radius: 10px;
-
+  background-color: aliceblue;
 }
 
 .testimoney article{
@@ -122,6 +122,8 @@ body a{
   margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 0 0 20px grey;
+  background: linear-gradient(45deg, rgba(86, 198, 250, 0.495), rgba(247, 254, 32, 0.403));
 }
 
 .testimoney article header{
@@ -151,14 +153,18 @@ body a{
   padding: 10px;
 }
 #about-section{
-  border: 1px solid black;
+  border: 1px solid rgb(177, 177, 177);
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
+  background-color: aliceblue;
 }
 
-#about-section article{
-  border: 1px solid grey;
+hr{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(144, 135, 135);
+  border-radius: 10px;
 }
 footer{
   display: flex;
