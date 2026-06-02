@@ -20,3 +20,7 @@ function handelForm() {
     console.log(submitCommit)
   }
 }
+
+function commingSoon() {
+  alert("This feature is comming soon")
+}
