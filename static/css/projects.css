@@ -9,7 +9,7 @@
 }
 
 #project-section article{
-  background: linear-gradient(145deg, #9d00ff86, #ffff0085);
+  background: linear-gradient(145deg, #9d00ff86, #9ae6ff);
   border: 1px solid beige;
   margin: 10px;
   padding: 10px;
@@ -27,7 +27,7 @@
 }
 
 #contact-section{
-  background-color: #ddff01;
+  background-color: #9ae6ff;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
