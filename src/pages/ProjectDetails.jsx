@@ -94,7 +94,6 @@ export default function ProjectDetails() {
             <a
               href={project.link}
               target="_blank"
-              rel="noopener noreferrer"
               className="flex items-center gap-2 bg-blue-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-blue-700 transition"
             >
               Visit Site <ExternalLink className="w-4 h-4" />
@@ -102,8 +101,7 @@ export default function ProjectDetails() {
           ) : (
             <a
               href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
+              download
               className="flex items-center gap-2 bg-green-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-green-700 transition shadow"
             >
               <BsAndroid className="text-lg" /> Download APK

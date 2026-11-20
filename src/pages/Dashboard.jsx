@@ -39,7 +39,9 @@ export default function Dashboard() {
                 View My Work
               </a>
               <a
-                href="https://www.wa.com/0880868634?text=Hi, John P. Singbah, I will like to hire you for a project please response to this message as soon as possible"
+                href="https://wa.me/231880868634?text=Hi%20John%2C%20I%20want%20to%20hire%20you%20for%20a%20project"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border border-white/50 px-5 py-2.5 rounded-full hover:bg-white/10 transition"
               >
                 Hire Me

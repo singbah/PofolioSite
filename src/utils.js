@@ -17,7 +17,7 @@ const projects = [
     description:
       "A Financial Utility app that help mobile money agents track transactions in real time and generate reports.",
     kind: "installApp",
-    link: "www.example.com/project1",
+    link: "./static/apks/momo-1.1.3-arm64-v8a_armeabi-v7a-debug.apk",
   },
   {
     name: "Sport LIB",
@@ -25,7 +25,7 @@ const projects = [
     description:
       "SportLIB is a sports platform focused on providing sports news, competition information, match information, teams, players, and other sports-related content, with a focus on sports in Liberia.",
     kind: "webApp",
-    link: "sportlib.vercel.app/",
+    link: "https://sportlib.vercel.app/",
   },
 ];
 
